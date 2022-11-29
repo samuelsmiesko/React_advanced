@@ -1,0 +1,45 @@
+.Button1{
+    padding: auto;
+    right: calc(50% - 100px);
+    height: 60px;
+    width: 180px;
+    border: 2px solid rgb(4, 92, 92);
+    color: rgb(4, 92, 92);;
+    border-radius: 5px;
+    z-index: 10;
+    overflow: hidden;
+    transition: background-color 0.5s, color 0.5s;
+    display: grid;
+    font-size: 35px; 
+    cursor: pointer;
+    user-select: none;
+    justify-content: center;
+    -webkit-box-shadow: -1px 1px 5px 9px whitesmoke;
+    -moz-box-shadow: -1px 1px 5px 9px whitesmoke;
+    box-shadow: -1px 1px 5px 9px whitesmoke;
+}
+
+.Button1:hover {
+    background-color:rgb(4, 92, 92);;
+    color: white; 
+    border: 2px solid white;;
+  }
+
+.Button1:hover > span{
+    animation: spin 0.5s;
+  }
+
+@keyframes spin {
+    0% {
+        transform: translateY(-100%);
+    }
+    
+    100%{
+        transform: translateY(0%);
+    }
+    
+  }
+
+  /* Button 2 */
+
+  

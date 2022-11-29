@@ -1,0 +1,85 @@
+$myColorFont: white;
+$myColor1: rgb(28, 179, 28);
+$myColor2: rgb(20, 121, 17);
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    max-height: 60vh;
+    
+   
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 32px;
+  }
+  
+  th {
+    background-color: $myColor1;
+  }
+  
+  tr {
+    background-color: rgb(191, 241, 181);
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  }
+
+  .ButtonAdd{
+    background-color: $myColor1;
+    color:$myColorFont;
+    width:120px;
+    border:2px solid grey
+  }
+  .ButtonAdd:hover{
+    background-color: $myColor2;
+  }
+
+  .ButtonDelete{
+    background-color: red;
+    color:$myColorFont;
+    width:120px;
+    border:2px solid grey
+  }
+  .ButtonDelete:hover{
+    background-color: crimson;
+  }
+
+  tr:nth-child(even) {
+    background: rgb(204, 228, 189);
+  }
+
+  .Inputs > input{
+    border: 3px solid grey;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+
+  }
+
+  .Inputs{
+    display: flex;
+    flex-wrap: wrap;
+  }

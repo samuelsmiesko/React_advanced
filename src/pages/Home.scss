@@ -1,0 +1,33 @@
+.Home{
+    position: absolute;
+    right: 5vw;
+    top: 10vh;
+    width: 65vw;
+    padding-left: auto;
+    padding-right: auto;
+  }
+
+
+@media only screen and (max-width: 1400px) {
+    .Home {
+        width: 50vw;  
+        overflow-y: scroll;
+          
+    }
+  }
+
+  .DIV1{
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 5px solid grey;
+    height: 100vh;
+  }
+  .DIV2{
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 5px solid grey;
+    height: 100vh;
+    background: green;
+  }
