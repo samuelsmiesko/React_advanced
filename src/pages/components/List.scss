@@ -6,15 +6,16 @@ $myColor2: rgb(20, 121, 17);
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 1rem;
-    max-height: 60vh;
-    
+    padding-left: 70vw;
+    overflow-x: scroll;
    
   }
   
   table {
     border-collapse: collapse;
-    width: 90%;
+    
+    margin: 50px;
+    
   }
   
   th,
@@ -78,7 +79,6 @@ $myColor2: rgb(20, 121, 17);
     padding: 5px;
 
   }
-
   .Inputs{
     display: flex;
     flex-wrap: wrap;

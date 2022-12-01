@@ -24,7 +24,7 @@ const Layout = () => {
   };
   
   const handleMouseEnter = () => {   
-    if(window.innerWidth<1000){
+    if(window.innerWidth<1400){
       setIsHover(current => !current); 
     }   
          
@@ -40,7 +40,7 @@ const Layout = () => {
 
   React.useState(() => {
     function handleResize() {
-      if(window.innerWidth<1000){
+      if(window.innerWidth<1400){
         console.log('resized to: ', window.innerWidth, 'x', window.innerHeight)
         console.log(isHover)
         isFalse()

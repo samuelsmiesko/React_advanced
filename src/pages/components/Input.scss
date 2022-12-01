@@ -1,0 +1,27 @@
+.Inp1{
+    font-size: 25px;
+    padding:  10px 25px;
+    border-radius: 2.6em;
+    border: 3px solid rgb(20, 109, 32);
+    transition: 0.3s;
+    width: 15vw;
+    -webkit-box-shadow: -1px 1px 5px 9px whitesmoke;
+    -moz-box-shadow: -1px 1px 5px 9px whitesmoke;
+    box-shadow: -1px 1px 5px 9px whitesmoke;
+}
+
+.image{
+    height: 40px;
+    padding-left: 15px;
+    vertical-align: middle;
+    
+}
+
+.Inp1:focus{
+    width: calc(15vw + 100px);
+    .image{
+        border: 3px solid rgb(20, 109, 32);
+    }
+}
+
+

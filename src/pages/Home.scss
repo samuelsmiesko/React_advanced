@@ -1,33 +1,51 @@
 .Home{
-    position: absolute;
-    right: 5vw;
+    position: fixed;
     top: 10vh;
-    width: 65vw;
+    right:0;
+    width: 100vw;
     padding-left: auto;
     padding-right: auto;
+    overflow-y: scroll;
+    height: 85vh;
+    
   }
 
 
-@media only screen and (max-width: 1400px) {
-    .Home {
-        width: 50vw;  
-        overflow-y: scroll;
-          
-    }
-  }
+ @media only screen and (max-width: 1400px) {
+     .ListShow {
+         
+     }
+   }
+
 
   .DIV1{
     padding: 10%;
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 5px solid grey;
+    box-shadow: 0px -10px 200px grey inset;
     height: 100vh;
+    padding-left: 50vw;
+    border-right: 10vw solid yellowgreen;
+    opacity: 0.8;
   }
   .DIV2{
     padding: 10%;
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 5px solid grey;
+    box-shadow: 0px -10px 200px grey inset;
     height: 100vh;
-    background: green;
+    border-right: 10vw solid rgb(28, 179, 28);
+    padding-left: 50vw;
+    opacity: 0.8;
+    
+  }
+  .DIV3{
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 10vw solid rgb(20, 121, 17);
+    box-shadow: 0px -10px 200px grey inset;
+    height: 100vh;
+    padding-left: 50vw;
+    opacity: 0.8;
   }
