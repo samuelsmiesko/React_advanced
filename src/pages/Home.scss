@@ -7,38 +7,42 @@
     padding-right: auto;
     overflow-y: scroll;
     height: 85vh;
-    
   }
 
 
- @media only screen and (max-width: 1400px) {
-     .ListShow {
-         
-     }
-   }
 
+
+.ListShow {
+      position: fixed;
+      right: 0;
+      top:0;
+     }
+   
 
   .DIV1{
     padding: 10%;
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0px -10px 200px grey inset;
-    height: 100vh;
     padding-left: 50vw;
     border-right: 10vw solid yellowgreen;
     opacity: 0.8;
+    height: 100vh;
   }
+
+  
   .DIV2{
     padding: 10%;
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0px -10px 200px grey inset;
-    height: 100vh;
     border-right: 10vw solid rgb(28, 179, 28);
     padding-left: 50vw;
     opacity: 0.8;
-    
+    height: 100vh;
   }
+
+
   .DIV3{
     padding: 10%;
     display: flex;

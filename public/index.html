@@ -46,4 +46,17 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    const handleScroll = event => {
+        console.log('scrollTop: ', event.currentTarget.scrollTop);
+        // console.log('offsetHeight: ', event.currentTarget.offsetHeight);
+        // console.log(window.innerHeight)
+        if(event.currentTarget.offsetHeight+event.currentTarget.scrollTop>window.innerHeight){
+          console.log("run")
+          document.getElementsByClassName("DIV2").style.transition = "all 0.5s";
+          document.getElementsByClassName("DIV1").style.transition = "all 0.5s";
+        }
+
+      };
+  </script>
 </html>
